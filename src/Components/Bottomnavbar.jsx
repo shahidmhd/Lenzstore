@@ -1,7 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { FaShoppingCart } from "react-icons/fa";
 import { CgMenuGridR } from "react-icons/cg";
 import { MdOutlineShoppingBag } from "react-icons/md";
 import { BiCategory } from "react-icons/bi";

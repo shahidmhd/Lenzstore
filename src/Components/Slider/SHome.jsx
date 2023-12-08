@@ -15,6 +15,7 @@
 // export default SHome;
 import React from 'react'
 import './Home.css'
+import image2 from '/assets/images/products/Imagen-web-Nature.jpg'
 function SHome() {
   return (
     <>
@@ -22,7 +23,7 @@ function SHome() {
 
 <div className="carousel-inner">
     <div className="carousel-item active">
-        <img src="https://www.cleardekho.com/wp-content/uploads/2023/12/1800x450-Dekstop.gif" className="d-block w-100" alt="..."/>
+        <img src={image2} className="d-block w-100" alt="..."/>
         <div className="carousel-caption d-none d-md-block">
             <div className="custom-carousel-content">
                 <h1>
@@ -42,7 +43,7 @@ function SHome() {
         </div>
     </div>
     <div className="carousel-item">
-        <img src="https://www.cleardekho.com/wp-content/uploads/2023/12/1800x450-Dekstop.gif" className="d-block w-100" alt="..."/>
+        <img src={image2} className="d-block w-100" alt="..."/>
         <div className="carousel-caption d-none d-md-block">
             <div className="custom-carousel-content">
                 <h1>
@@ -62,7 +63,7 @@ function SHome() {
         </div>
     </div>
     <div className="carousel-item">
-        <img src="https://www.cleardekho.com/wp-content/uploads/2023/12/1800x450-Dekstop.gif" className="d-block w-100" alt="..."/>
+        <img src={image2} className="d-block w-100" alt="..."/>
         <div className="carousel-caption d-none d-md-block">
             <div className="custom-carousel-content">
                 <h1>
