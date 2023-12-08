@@ -149,18 +149,18 @@ function Header() {
                   {/*=======  End of single-icon  =======*/}
                   {/*=======  single-icon  =======*/}
                   <div className="single-icon wishlist">
-                    <a href="/wishlist" id="offcanvas-wishlist-icon">
-                      <i className="ion-android-favorite-outline"style={{color:"#fff"}} />
+                    <Link to={'/wishlist'}id="offcanvas-wishlist-icon">
+                    <i className="ion-android-favorite-outline"style={{color:"#fff"}} />
                       <span className="count">2</span>
-                    </a>
+                    </Link>
                   </div>
                   {/*=======  End of single-icon  =======*/}
                   {/*=======  single-icon  =======*/}
                   <div className="single-icon cart">
-                    <a href="/cart" id="offcanvas-cart-icon">
+                    <Link to={'/cart'} id="offcanvas-cart-icon">
                       <i className="ion-ios-cart" style={{color:"#fff"}} />
                       <span className="count">3</span>
-                    </a>
+                    </Link>
                   </div>
                   {/*=======  End of single-icon  =======*/}
                 </div>

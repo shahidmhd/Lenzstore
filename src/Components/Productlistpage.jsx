@@ -4,6 +4,7 @@
 import React from 'react'
 import image1 from '/assets/images/products/glass1.jpg'
 import image2 from '/assets/images/products/glass2.jpg'
+import { Link } from 'react-router-dom'
 function Productlistpage() {
  
   return (
@@ -514,20 +515,20 @@ function Productlistpage() {
                     <div className="single-widget-product">
                       {/*=======  image  =======*/}
                       <div className="single-widget-product__image">
-                        <a href="/singlepage">
-                          <img
+                        <Link to={'/singlepage'}>
+                        <img
                             src="assets/images/products/product8.jpg"
                             className="img-fluid"
                             alt=""
                           />
-                        </a>
+                        </Link>
                       </div>
                       {/*=======  End of image  =======*/}
                       {/*=======  content  =======*/}
                       <div className="single-widget-product__content">
                         <div className="single-widget-product__content__top">
                           <h3 className="product-title">
-                            <a href="/singlepage">Eyeglass</a>
+                            <Link to={'/singlepage'}>Eyeglass</Link>
                           </h3>
                           <div className="price">
                             <span className="main-price discounted">
@@ -652,7 +653,7 @@ function Productlistpage() {
                 <div className="single-product">
                   {/*=======  single product image  =======*/}
                   <div className="single-product__image">
-                    <a className="image-wrap" href="/singlepage">
+                    <Link className="image-wrap" to={"/singlepage"}>
                       <img
                         src={image2}
                         className="img-fluid"
@@ -663,7 +664,7 @@ function Productlistpage() {
                         className="img-fluid"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="single-product__floating-badges">
                       <span className="onsale">-10%</span>
                     </div>
@@ -733,7 +734,7 @@ function Productlistpage() {
                 <div className="single-product--list">
                   {/*=======  single product image  =======*/}
                   <div className="single-product__image">
-                    <a className="image-wrap" href="/singlepage">
+                    <Link className="image-wrap" to={"/singlepage"}>
                       <img
                         src={image1}
                         className="img-fluid"
@@ -744,7 +745,7 @@ function Productlistpage() {
                         className="img-fluid"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="single-product__floating-badges">
                       <span className="onsale">-10%</span>
                     </div>
@@ -828,7 +829,7 @@ function Productlistpage() {
                 <div className="single-product">
                   {/*=======  single product image  =======*/}
                   <div className="single-product__image">
-                    <a className="image-wrap" href="/singlepage">
+                    <Link className="image-wrap" to={"/singlepage"}>
                       <img
                         src={image1}
                         className="img-fluid"
@@ -839,7 +840,7 @@ function Productlistpage() {
                         className="img-fluid"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="single-product__floating-badges">
                       <span className="hot">hot</span>
                     </div>
@@ -909,7 +910,7 @@ function Productlistpage() {
                 <div className="single-product--list">
                   {/*=======  single product image  =======*/}
                   <div className="single-product__image">
-                    <a className="image-wrap" href="/singlepage">
+                    <Link className="image-wrap" to={"/singlepage"}>
                       <img
                         src="assets/images/products/watch-2-1-600x800.jpg"
                         className="img-fluid"
@@ -920,7 +921,7 @@ function Productlistpage() {
                         className="img-fluid"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="single-product__floating-badges">
                       <span className="hot">hot</span>
                     </div>
@@ -1004,7 +1005,7 @@ function Productlistpage() {
                 <div className="single-product">
                   {/*=======  single product image  =======*/}
                   <div className="single-product__image">
-                    <a className="image-wrap" href="/singlepage">
+                    <Link className="image-wrap" to={"/singlepage"}>
                       <img
                         src={image2}
                         className="img-fluid"
@@ -1015,7 +1016,7 @@ function Productlistpage() {
                         className="img-fluid"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="single-product__floating-badges"></div>
                     <div className="single-product__floating-icons">
                       <span className="wishlist">
@@ -1083,7 +1084,7 @@ function Productlistpage() {
                 <div className="single-product--list">
                   {/*=======  single product image  =======*/}
                   <div className="single-product__image">
-                    <a className="image-wrap" href="/singlepage">
+                    <Link className="image-wrap" to={"/singlepage"}>
                       <img
                         src="assets/images/products/watch-3-1-600x800.jpg"
                         className="img-fluid"
@@ -1094,7 +1095,7 @@ function Productlistpage() {
                         className="img-fluid"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="single-product__floating-icons">
                       <span className="wishlist">
                         <a
@@ -1175,7 +1176,7 @@ function Productlistpage() {
                 <div className="single-product">
                   {/*=======  single product image  =======*/}
                   <div className="single-product__image">
-                  <a className="image-wrap" href="/singlepage">
+                  <Link className="image-wrap" to={"/singlepage"}>
                       <img
                         src={image2}
                         className="img-fluid"
@@ -1186,7 +1187,7 @@ function Productlistpage() {
                         className="img-fluid"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="single-product__floating-badges">
                       <span className="onsale">-5%</span>
                     </div>
@@ -1256,7 +1257,7 @@ function Productlistpage() {
                 <div className="single-product--list">
                   {/*=======  single product image  =======*/}
                   <div className="single-product__image">
-                    <a className="image-wrap" href="/singlepage">
+                    <Link className="image-wrap" to={"/singlepage"}>
                       <img
                         src="assets/images/products/cosmetics-1-1-600x800.jpg"
                         className="img-fluid"
@@ -1267,7 +1268,7 @@ function Productlistpage() {
                         className="img-fluid"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="single-product__floating-badges">
                       <span className="onsale">-5%</span>
                     </div>
@@ -1351,7 +1352,7 @@ function Productlistpage() {
                 <div className="single-product">
                   {/*=======  single product image  =======*/}
                   <div className="single-product__image">
-                  <a className="image-wrap" href="/singlepage">
+                  <Link className="image-wrap" to={"/singlepage"}>
                       <img
                         src={image1}
                         className="img-fluid"
@@ -1362,7 +1363,7 @@ function Productlistpage() {
                         className="img-fluid"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="single-product__floating-badges">
                       <span className="onsale">-15%</span>
                     </div>
@@ -1432,7 +1433,7 @@ function Productlistpage() {
                 <div className="single-product--list">
                   {/*=======  single product image  =======*/}
                   <div className="single-product__image">
-                    <a className="image-wrap" href="/singlepage">
+                    <Link className="image-wrap" to={"/singlepage"}>
                       <img
                         src="assets/images/products/furniture-1-1-600x800.jpg"
                         className="img-fluid"
@@ -1443,7 +1444,7 @@ function Productlistpage() {
                         className="img-fluid"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="single-product__floating-badges">
                       <span className="onsale">-15%</span>
                     </div>
@@ -1527,7 +1528,7 @@ function Productlistpage() {
                 <div className="single-product">
                   {/*=======  single product image  =======*/}
                   <div className="single-product__image">
-                  <a className="image-wrap" href="/singlepage">
+                  <Link className="image-wrap" to={"/singlepage"}>
                       <img
                         src={image2}
                         className="img-fluid"
@@ -1538,7 +1539,7 @@ function Productlistpage() {
                         className="img-fluid"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="single-product__floating-badges"></div>
                     <div className="single-product__floating-icons">
                       <span className="wishlist">
@@ -1605,7 +1606,7 @@ function Productlistpage() {
                 <div className="single-product--list">
                   {/*=======  single product image  =======*/}
                   <div className="single-product__image">
-                    <a className="image-wrap" href="/singlepage">
+                    <Link className="image-wrap" to={"/singlepage"}>
                       <img
                         src="assets/images/products/furniture-2-1-600x800.jpg"
                         className="img-fluid"
@@ -1616,7 +1617,7 @@ function Productlistpage() {
                         className="img-fluid"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="single-product__floating-icons">
                       <span className="wishlist">
                         <a
@@ -1696,7 +1697,7 @@ function Productlistpage() {
                 <div className="single-product">
                   {/*=======  single product image  =======*/}
                   <div className="single-product__image">
-                  <a className="image-wrap" href="/singlepage">
+                  <Link className="image-wrap" to={"/singlepage"}>
                       <img
                         src={image1}
                         className="img-fluid"
@@ -1707,7 +1708,7 @@ function Productlistpage() {
                         className="img-fluid"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="single-product__floating-badges">
                       <span className="onsale">-25%</span>
                     </div>
@@ -1777,7 +1778,7 @@ function Productlistpage() {
                 <div className="single-product--list">
                   {/*=======  single product image  =======*/}
                   <div className="single-product__image">
-                    <a className="image-wrap" href="/singlepage">
+                    <Link className="image-wrap" to={"/singlepage"}>
                       <img
                         src="assets/images/products/furniture-3-1-600x800.jpg"
                         className="img-fluid"
@@ -1788,7 +1789,7 @@ function Productlistpage() {
                         className="img-fluid"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="single-product__floating-badges">
                       <span className="onsale">-25%</span>
                     </div>
@@ -1872,7 +1873,7 @@ function Productlistpage() {
                 <div className="single-product">
                   {/*=======  single product image  =======*/}
                   <div className="single-product__image">
-                  <a className="image-wrap" href="/singlepage">
+                  <Link className="image-wrap" to={"/singlepage"}>
                       <img
                         src={image1}
                         className="img-fluid"
@@ -1883,7 +1884,7 @@ function Productlistpage() {
                         className="img-fluid"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="single-product__floating-badges">
                       <span className="onsale">-10%</span>
                       <span className="hot">hot</span>
@@ -1970,7 +1971,7 @@ function Productlistpage() {
                 <div className="single-product--list">
                   {/*=======  single product image  =======*/}
                   <div className="single-product__image">
-                    <a className="image-wrap" href="/singlepage">
+                    <Link className="image-wrap" to={"/singlepage"}>
                       <img
                         src="assets/images/products/cloth-1-1-600x800.jpg"
                         className="img-fluid"
@@ -1981,7 +1982,7 @@ function Productlistpage() {
                         className="img-fluid"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="single-product__floating-badges">
                       <span className="onsale">-10%</span>
                       <span className="hot">hot</span>
@@ -2082,7 +2083,7 @@ function Productlistpage() {
                 <div className="single-product">
                   {/*=======  single product image  =======*/}
                   <div className="single-product__image">
-                  <a className="image-wrap" href="/singlepage">
+                  <Link className="image-wrap" to={"/singlepage"}>
                       <img
                         src={image1}
                         className="img-fluid"
@@ -2093,7 +2094,7 @@ function Productlistpage() {
                         className="img-fluid"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="single-product__floating-badges">
                       <span className="onsale">-10%</span>
                     </div>
@@ -2162,7 +2163,7 @@ function Productlistpage() {
                 <div className="single-product--list">
                   {/*=======  single product image  =======*/}
                   <div className="single-product__image">
-                    <a className="image-wrap" href="/singlepage">
+                    <Link className="image-wrap" to={"/singlepage"}>
                       <img
                         src="assets/images/products/watch-1-1-600x800.jpg"
                         className="img-fluid"
@@ -2173,7 +2174,7 @@ function Productlistpage() {
                         className="img-fluid"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="single-product__floating-badges">
                       <span className="onsale">-10%</span>
                     </div>
@@ -2256,7 +2257,7 @@ function Productlistpage() {
                 <div className="single-product">
                   {/*=======  single product image  =======*/}
                   <div className="single-product__image">
-                  <a className="image-wrap" href="/singlepage">
+                  <Link className="image-wrap" to={"/singlepage"}>
                       <img
                         src={image1}
                         className="img-fluid"
@@ -2267,7 +2268,7 @@ function Productlistpage() {
                         className="img-fluid"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="single-product__floating-badges">
                       <span className="hot">hot</span>
                     </div>
@@ -2337,7 +2338,7 @@ function Productlistpage() {
                 <div className="single-product--list">
                   {/*=======  single product image  =======*/}
                   <div className="single-product__image">
-                    <a className="image-wrap" href="/singlepage">
+                    <Link className="image-wrap" to={"/singlepage"}>
                       <img
                         src="assets/images/products/watch-2-1-600x800.jpg"
                         className="img-fluid"
@@ -2348,7 +2349,7 @@ function Productlistpage() {
                         className="img-fluid"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="single-product__floating-badges">
                       <span className="hot">hot</span>
                     </div>
@@ -2432,7 +2433,7 @@ function Productlistpage() {
                 <div className="single-product">
                   {/*=======  single product image  =======*/}
                   <div className="single-product__image">
-                  <a className="image-wrap" href="/singlepage">
+                  <Link className="image-wrap" to={"/singlepage"}>
                       <img
                         src={image1}
                         className="img-fluid"
@@ -2443,7 +2444,7 @@ function Productlistpage() {
                         className="img-fluid"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="single-product__floating-badges"></div>
                     <div className="single-product__floating-icons">
                       <span className="wishlist">
@@ -2511,7 +2512,7 @@ function Productlistpage() {
                 <div className="single-product--list">
                   {/*=======  single product image  =======*/}
                   <div className="single-product__image">
-                    <a className="image-wrap" href="/singlepage">
+                    <Link className="image-wrap" to={"/singlepage"}>
                       <img
                         src="assets/images/products/watch-3-1-600x800.jpg"
                         className="img-fluid"
@@ -2522,7 +2523,7 @@ function Productlistpage() {
                         className="img-fluid"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="single-product__floating-icons">
                       <span className="wishlist">
                         <a

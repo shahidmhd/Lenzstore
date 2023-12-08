@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Topheader() {
   return (
@@ -72,7 +73,7 @@ function Topheader() {
           {/*=======  End of header separator  =======*/}
           {/*======= top newsletter subscription   =======*/}
           <div className="top-newsletter-subscription no-dropdown">
-            <a href="#">Newsletter Signup</a>
+            <Link to={'/login'}>Login/ Signup</Link>
           </div>
           {/*=======  End of top newsletter subscription   =======*/}
           {/*=======  header separator  =======*/}
