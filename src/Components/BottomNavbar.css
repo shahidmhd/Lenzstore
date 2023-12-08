@@ -1,0 +1,85 @@
+/* 
+.nav-link {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background-color: yellow;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+@media (max-width: 767px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+  }
+
+  .nav-item {
+    flex-grow: 1;
+  }
+
+  .nav-link {
+    display: flex;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    display: none; 
+  }
+} */
+
+
+/* Bottomnavbar.css */
+
+/* Common styles for all devices */
+.nav-link {
+  display: none; /* Hide by default */
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #000;
+  text-decoration: none;
+  background-color: #2257a7; /* Set default background color to gray */
+}
+
+.nav-link:hover {
+  background-color: #2257a7; /* Change the background color on hover to blue */
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+/* Styles for small devices (up to 767px width) */
+@media (max-width: 767px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: row; /* Display icons in a row on small devices */
+    justify-content: space-between; /* Add space between icons */
+    align-items: center; /* Center icons vertically */
+    width: 100%;
+  }
+
+  .nav-item {
+    flex-grow: 1;
+  }
+
+  .nav-link {
+    display: flex; /* Show on small devices */
+  }
+}
+
+/* Styles for large devices (768px width and above) */
+@media (min-width: 768px) {
+  .navbar-nav {
+    display: none; /* Hide on large devices */
+  }
+}

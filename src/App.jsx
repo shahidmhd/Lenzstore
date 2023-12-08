@@ -9,6 +9,7 @@ import Notfoundpage from "./Components/Notfoundpage";
 import Login from "./Pages/Login";
 import Productlist from "./Pages/Productlist";
 import Singleproductpage from "./Pages/Singleproductpage";
+import Bottomnavbar from "./Components/Bottomnavbar";
 function App() {
   return (
     <>
@@ -26,6 +27,7 @@ function App() {
        <Route path="*" element={<Notfoundpage />} />
         </Routes>
       <Footer />
+      <Bottomnavbar/>
 
         {/*==============================================            overlay items         ==============================================*/}
         {/*=======  about overlay  =======*/}
