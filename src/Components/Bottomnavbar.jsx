@@ -5,7 +5,7 @@ import './BottomNavbar.css';
 
 const Bottomnavbar = () => {
   return (
-    <Navbar fixed="bottom" bg="light" expand="lg">
+    <Navbar className=" d-block d-lg-none" fixed="bottom" style={{ backgroundColor: '#2257a7' }} expand="lg">
       <div className="container" style={{ backgroundColor: "#2257a7" }}> {/* Add background color to the container */}
         <Nav className="mx-auto">
           <Nav.Item>
