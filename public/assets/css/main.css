@@ -1664,11 +1664,11 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
     margin-left: 20px;
   }
 }
-@media only screen and (max-width: 479px) {
+/* @media only screen and (max-width: 479px) {
   .header-right-icons .single-icon.wishlist {
     display: none;
   }
-}
+} */
 @media only screen and (max-width: 479px) {
   .header-right-icons .single-icon.user-login {
     display: none;

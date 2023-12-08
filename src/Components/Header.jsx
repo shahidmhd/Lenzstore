@@ -24,8 +24,12 @@ function Header() {
     };
   }, []);
   
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
 
- 
+  const openSearch = () => {
+    setIsSearchOpen(!isSearchOpen);
+  };
+
   return (
     <>
       <header className="header header-wide-topbar header-sticky">
@@ -126,24 +130,26 @@ function Header() {
                 <div className="header-right-icons d-flex justify-content-end align-items-center h-100">
                   {/*=======  single-icon  =======*/}
                   <div className="single-icon search">
-                    <a href="#" id="search-icon">
-                      <i className="ion-ios-search-strong" style={{color:"#fff"}}/>
-                    </a>
-                  </div>
+        <a href="#" id="search-icon" onClick={openSearch}>
+          <i className="ion-ios-search-strong" style={{ color: '#fff' }} />
+        </a>
+      </div>
+      {isSearchOpen && (
+        <div className="search-popup pl-5">
+          <div className="search-popup-content">
+            {/* Search form */}
+            <form>
+              <input type="text" placeholder="Search..." style={{borderRadius:'5em',paddingLeft:'1em',border:'1em'}}/>
+            </form>
+          </div>
+        </div>
+      )}
                   {/*=======  End of single-icon  =======*/}
                   {/*=======  single-icon  =======*/}
-                  <div className=" top-shop-dropdown change-dropdown single-icon user-login">
+                  <div className=" single-icon user-login">
                     <a href="#">
                       <i className="ion-android-person" style={{color:"#fff"}}/>
                     </a>
-                    <ul>
-                      <li>
-                        <a href="#">My Account</a>
-                      </li>
-                      <li>
-                        <a href="/login">Login</a>
-                      </li>
-                    </ul>
                   </div>
 
                   {/*=======  End of single-icon  =======*/}

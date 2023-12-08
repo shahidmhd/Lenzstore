@@ -6,7 +6,7 @@ function Logo() {
    <>
         <div className="logo">
             <Link to={'/'}>
-            <img src="assets/images/Lenzstore logo.png" className="img-fluid" alt="" />
+            <img src="assets/images/Lenzstore logo.png" className="img-fluid" alt=""style={{width:"150px"}}/>
             </Link>
           </div>
    </>

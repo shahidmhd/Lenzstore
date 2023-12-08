@@ -106,7 +106,7 @@ function Singleproduct() {
                               <img
                                 src={image}
                                 alt={`Product Image ${index}`}
-                                className="img-fluid"
+                                className="img-fluid hover-zoom"
                                 onClick={() => setSelectedImage(image)}
                               />
                             </Zoom>
