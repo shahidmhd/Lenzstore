@@ -137,7 +137,6 @@ function Header() {
       {isSearchOpen && (
         <div className="search-popup pl-5">
           <div className="search-popup-content">
-            {/* Search form */}
             <form>
               <input type="text" placeholder="Search..." style={{borderRadius:'5em',paddingLeft:'1em',border:'1em'}}/>
             </form>
