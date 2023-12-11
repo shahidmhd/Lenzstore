@@ -1,29 +1,29 @@
-import React,{lazy} from "react";
+import React from "react";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Home from "./Pages/Home";
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-// import Cart from "./Pages/Cart";
-// import Wishlist from "./Pages/Wishlist";
-// import Notfoundpage from "./Components/Notfoundpage";
-// import Login from "./Pages/Login";
-// import Productlist from "./Pages/Productlist";
-// import Singleproductpage from "./Pages/Singleproductpage";
-// import Bottomnavbar from "./Components/Bottomnavbar";
-const Bottomnavbar = lazy(() => import('./Components/Bottomnavbar'));
-const Singleproductpage = lazy(() => import('./Pages/Singleproductpage'));
-const Productlist = lazy(() => import('./Pages/Productlist'));
-// Lazy load the Cart component
-const Cart = lazy(() => import('./Pages/Cart'));
+import Cart from "./Pages/Cart";
+import Wishlist from "./Pages/Wishlist";
+import Notfoundpage from "./Components/Notfoundpage";
+import Login from "./Pages/Login";
+import Productlist from "./Pages/Productlist";
+import Singleproductpage from "./Pages/Singleproductpage";
+import Bottomnavbar from "./Components/Bottomnavbar";
+// const Bottomnavbar = lazy(() => import('./Components/Bottomnavbar'));
+// const Singleproductpage = lazy(() => import('./Pages/Singleproductpage'));
+// const Productlist = lazy(() => import('./Pages/Productlist'));
+// // Lazy load the Cart component
+// const Cart = lazy(() => import('./Pages/Cart'));
 
-// Lazy load the Wishlist component
-const Wishlist = lazy(() => import('./Pages/Wishlist'));
+// // Lazy load the Wishlist component
+// const Wishlist = lazy(() => import('./Pages/Wishlist'));
 
-// Lazy load the Notfoundpage component
-const Notfoundpage = lazy(() => import('./Components/Notfoundpage'));
+// // Lazy load the Notfoundpage component
+// const Notfoundpage = lazy(() => import('./Components/Notfoundpage'));
 
-// Lazy load the Login component
-const Login = lazy(() => import('./Pages/Login'));
+// // Lazy load the Login component
+// const Login = lazy(() => import('./Pages/Login'));
 
 
 function App() {
