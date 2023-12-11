@@ -10,6 +10,7 @@ import Login from "./Pages/Login";
 import Productlist from "./Pages/Productlist";
 import Singleproductpage from "./Pages/Singleproductpage";
 import Bottomnavbar from "./Components/Bottomnavbar";
+import SampleHeader from "./Components/SampleHeader";
 // const Bottomnavbar = lazy(() => import('./Components/Bottomnavbar'));
 // const Singleproductpage = lazy(() => import('./Pages/Singleproductpage'));
 // const Productlist = lazy(() => import('./Pages/Productlist'));
@@ -33,6 +34,7 @@ function App() {
     <div style={{ position: "sticky", top: 0, zIndex: 1000 }}>
         <Header />
       </div>
+      {/* <SampleHeader/> */}
       <Routes>
        <Route path="/" element={<Home/>} />
        <Route path="/cart" element={<Cart/>} />

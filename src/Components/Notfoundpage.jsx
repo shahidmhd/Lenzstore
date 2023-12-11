@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Notfoundpage() {
   return (
     <>
-    <div className="nothing-found-area bg-404">
+    <div className="nothing-found-area">
   <div className="container">
     <div className="row">
       <div className="col-lg-6">

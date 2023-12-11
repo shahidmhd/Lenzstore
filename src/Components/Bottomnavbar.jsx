@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Navbar, Nav, Modal } from "react-bootstrap";
-import { CgMenuGridR } from "react-icons/cg";
 import { MdOutlineShoppingBag } from "react-icons/md";
 import { BiCategory } from "react-icons/bi";
 import { CgProfile } from "react-icons/cg";
+import { FaHome } from "react-icons/fa";
 import './BottomNavbar.css';
 import { Link } from "react-router-dom";
 
@@ -112,7 +112,12 @@ const Bottomnavbar = () => {
           <Nav className="mx-auto">
             <Nav.Item>
               <Link to="/" className="nav-link" >
-                <CgMenuGridR style={{ color: 'white' }} />
+                <FaHome style={{ color: 'white' }}/>
+              </Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Link to="/" className="nav-link" >
+                <BiCategory style={{ color: 'white' }} onClick={toggleDrawer} />
               </Link>
             </Nav.Item>
             <Nav.Item>
@@ -125,11 +130,7 @@ const Bottomnavbar = () => {
                 <CgProfile style={{ color: 'white' }}/>
               </Link>
             </Nav.Item>
-            <Nav.Item>
-              <Link to="/" className="nav-link" >
-                <BiCategory style={{ color: 'white' }} onClick={toggleDrawer} />
-              </Link>
-            </Nav.Item>
+          
           </Nav>
         </div>
       </Navbar>

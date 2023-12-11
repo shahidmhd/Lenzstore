@@ -12291,7 +12291,8 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
 .footer-single-widget h5.widget-title {
   font-size: 14px;
   font-weight: 600;
-  color: #333;
+  /* color: #333; */
+  color: #fff;
   margin-bottom: 30px;
 }
 .footer-single-widget .logo {
@@ -12300,7 +12301,8 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
 .footer-single-widget .copyright-text p {
   font-size: 15px;
   line-height: 30px;
-  color: #777777;
+  color: #fff;
+  /* color: #777777; */
 }
 .footer-single-widget .copyright-text p span {
   display: block;
@@ -12324,7 +12326,8 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
 .footer-nav-container nav ul li a {
   font-size: 15px;
   line-height: 20px;
-  color: #999999;
+  /* color: #999999; */
+  color: #fff;
   position: relative;
 }
 .footer-nav-container nav ul li a:hover {
@@ -12419,7 +12422,8 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
 .footer-subscription-widget .footer-subscription-title {
   font-size: 34px;
   line-height: 34px;
-  color: #333;
+  /* color: #333; */
+  color: #fff;
   margin-bottom: 30px;
 }
 .footer-subscription-widget .subscription-subtitle {

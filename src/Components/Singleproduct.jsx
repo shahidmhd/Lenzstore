@@ -6,6 +6,7 @@ import image7 from '/assets/images/products/product7.jpg'
 import image8 from '/assets/images/products/product8.jpg'
 import image9 from '/assets/images/products/product9.jpg'
 import image10 from '/assets/images/products/product10.jpg'
+import './Sample.css';
 const CustomPrevArrow = (props) => (
     <button {...props} className="slick-arrow slick-prev">
     </button>
@@ -229,9 +230,20 @@ function Singleproduct() {
                     <a className="lezada-button lezada-button--medium" href="#">
                       add to cart
                     </a>
-                    <a className="lezada-button lezada-button--medium ml-20" href="#">
-                      Buy Now
-                    </a>
+                    <a
+  className="lezada-compare-button ml-20"
+  href="#"
+  data-tippy="Compare"
+  data-tippy-inertia="true"
+  data-tippy-animation="shift-away"
+  data-tippy-delay={50}
+  data-tippy-placement="left"
+  data-tippy-arrow="true"
+  data-tippy-theme="sharpborder"
+>
+  <i className="ion-ios-shuffle" />
+</a>
+
                   </div>
                 </div>
                 {/*=======  End of shop product description  =======*/}

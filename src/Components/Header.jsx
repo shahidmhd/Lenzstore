@@ -182,8 +182,8 @@ function Header() {
                   className="dl-trigger hamburger hamburger--spin"
                   onClick={toggleDrawer}  
                 >
-                  <span className="hamburger-box">
-                    <span className="hamburger-inner"/>
+                  <span className="hamburger-box"style={{ width: '10px', height: '10px' }}>
+                    <span className="hamburger-inner" />
                   </span>
                 </button> */}
                 {/* <Drawer
@@ -271,6 +271,7 @@ function Header() {
         </div>
         {/*=======  End of header bottom  =======*/}
       </header>
+      
     </>
   );
 }

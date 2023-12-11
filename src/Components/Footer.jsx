@@ -6,15 +6,15 @@ function Footer() {
     {/*=============================================
       =            footer area         =
       =============================================*/}
-    <div className="footer-container footer-one pt-100 pb-50">
+    <div className="footer-container footer-one pt-100 pb-50" style={{backgroundColor:"black"}}>
       <div className="container wide">
         <div className="row">
           <div className="col footer-single-widget">
             {/*=======  copyright text  =======*/}
             {/*=======  logo  =======*/}
             <div className="logo">
-              {/* <img src="assets/images/logo.png" className="img-fluid" alt="" /> */}
-              <h3>Lenzstore</h3>
+              <img src="assets/images/products/bgremovedlogo.png" className="img-fluid" alt="" />
+              {/* <h3>Lenzstore</h3> */}
             </div>
             {/*=======  End of logo  =======*/}
             {/*=======  copyright text  =======*/}
@@ -86,24 +86,24 @@ function Footer() {
                 <ul>
                   <li>
                     <a href="http://twitter.com/">
-                      <i className="fa fa-twitter" /> Twitter
+                    <i className="fa fa-twitter" style={{ color: 'white' }} />  Twitter
                     </a>
                   </li>
                   <li>
                     <a href="http://facebook.com/">
                       {" "}
-                      <i className="fa fa-facebook" /> Facebook
+                      <i className="fa fa-facebook" style={{ color: 'white' }}/> Facebook
                     </a>
                   </li>
                   <li>
                     <a href="http://instagram.com/">
-                      <i className="fa fa-instagram" /> Instagram
+                      <i className="fa fa-instagram" style={{ color: 'white' }} /> Instagram
                     </a>
                   </li>
                   <li>
                     <a href="http://youtube.com/">
                       {" "}
-                      <i className="fa fa-youtube" /> Youtube
+                      <i className="fa fa-youtube" style={{ color: 'white' }} /> Youtube
                     </a>
                   </li>
                 </ul>
@@ -116,7 +116,7 @@ function Footer() {
             {/*=======  single widget  =======*/}
             <div className="footer-subscription-widget">
               <h2 className="footer-subscription-title">Subscribe.</h2>
-              <p className="subscription-subtitle">
+              <p className="subscription-subtitle text-white">
                 Subscribe to our newsletter to receive news on update.
               </p>
               {/*=======  subscription form  =======*/}
