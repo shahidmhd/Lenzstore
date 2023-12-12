@@ -102,7 +102,7 @@ function Wishlistpage() {
                           </span>
                         </td>
                         <td className="product-price">
-                          <span className="price">${item.price.toFixed(2)}</span>
+                          <span className="price">₹{item.price.toFixed(2)}</span>
                         </td>
                         <td className="product-quantity">
                           <div className="pro-qty d-inline-block mx-0">

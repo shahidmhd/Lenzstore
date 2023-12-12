@@ -146,9 +146,12 @@ function Header() {
                   {/*=======  End of single-icon  =======*/}
                   {/*=======  single-icon  =======*/}
                   <div className=" single-icon user-login">
-                    <a href="#">
+                    {/* <a href="#">
                       <i className="ion-android-person" style={{color:"#fff"}}/>
-                    </a>
+                    </a> */}
+                    <Link to={'/profile'}>
+                    <i className="ion-android-person" style={{color:"#fff"}}/>
+                    </Link>
                   </div>
 
                   {/*=======  End of single-icon  =======*/}

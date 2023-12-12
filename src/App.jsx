@@ -11,6 +11,9 @@ import Productlist from "./Pages/Productlist";
 import Singleproductpage from "./Pages/Singleproductpage";
 import Bottomnavbar from "./Components/Bottomnavbar";
 import SampleHeader from "./Components/SampleHeader";
+import Register from "./Pages/Register";
+import Checkout from "./Pages/Checkout";
+import Myaccount from "./Pages/Myaccount";
 // const Bottomnavbar = lazy(() => import('./Components/Bottomnavbar'));
 // const Singleproductpage = lazy(() => import('./Pages/Singleproductpage'));
 // const Productlist = lazy(() => import('./Pages/Productlist'));
@@ -40,8 +43,11 @@ function App() {
        <Route path="/cart" element={<Cart/>} />
        <Route path="/wishlist" element={<Wishlist/>} />
        <Route path="/login" element={<Login/>} />
+       <Route path="/register" element={<Register/>} />
+       <Route path="/profile" element={<Myaccount/>} />
        <Route path="/shop" element={<Productlist/>} />
        <Route path="/singlepage" element={<Singleproductpage/>} />
+       <Route path="/checkout" element={<Checkout/>} />
        <Route path="*" element={<Notfoundpage />} />
         </Routes>
       <Footer />

@@ -1,10 +1,10 @@
 import React from 'react'
 import Products from './Products'
 import Productheaders from './Productheaders'
-function Productcontainer() {
+function Productcontainer({data}) {
   return (
     <>
-        <Productheaders/>
+        <Productheaders data={data}/>
       {/*==============================================            product carousel container         ==============================================*/}
       <div className="product-carousel-container mb-70 mb-md-50 mb-sm-30">
         <div className="container wide">

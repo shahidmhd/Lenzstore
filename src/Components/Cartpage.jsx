@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Cartpage() {
     const initialCartData = [
@@ -213,9 +214,10 @@ function Cartpage() {
                   </tbody>
                 </table>
                 <div className="cart-calculation-button text-center">
-                  <button className="lezada-button lezada-button--medium">
+                  {/* <button className="lezada-button lezada-button--medium">
                     proceed to checkout
-                  </button>
+                  </button> */}
+                  <Link to={'/checkout'} className="lezada-button lezada-button--medium">proceed to checkout</Link>
                 </div>
               </div>
             </div>

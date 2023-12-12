@@ -8,7 +8,8 @@ import Slideshow from '../Components/Slideshow'
 
 
 function Home() {
- 
+ const data1="New Arrivals"
+ const data2="Trending"
   return (
    <>
 
@@ -16,7 +17,8 @@ function Home() {
   <Slideshow/>
  <Productcontainer/>
  <Offerbanner/>
- <Productcontainer/>
+ <Productcontainer data={data2}/>
+ <Productcontainer data={data1}/>
       <Instagram />
       <FooterTop />
    </>
