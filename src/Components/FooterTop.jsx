@@ -16,7 +16,7 @@ function FooterTop() {
               <div className="footer-top-single-widget">
                 <h4 className="footer-top-widget-title">FREE SHIPPING</h4>
                 <div className="content">
-                  <p>On all orders over $75.00</p>
+                  <p>On all orders over ₹75.00</p>
                 </div>
               </div>
               <div className="footer-top-single-widget">
