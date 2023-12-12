@@ -90,39 +90,6 @@ function Registerpage() {
           </form>
         </div>
       </div>
-      <div className="col-lg-6">
-        <div className="lezada-form login-form--register">
-          <form action="#">
-            <div className="row">
-              <div className="col-lg-12">
-                {/*=======  login title  =======*/}
-                <div className="section-title section-title--login text-center mb-50">
-                  <h2 className="mb-20">Register</h2>
-                  <p>If you don’t have an account, register now!</p>
-                </div>
-                {/*=======  End of login title  =======*/}
-              </div>
-              <div className="col-lg-12 mb-30">
-                <label htmlFor="regEmail">
-                  Email Address <span className="required">*</span>{" "}
-                </label>
-                <input type="text" id="regEmail" required="" />
-              </div>
-              <div className="col-lg-12 mb-50">
-                <label htmlFor="regPassword">
-                  Password <span className="required">*</span>{" "}
-                </label>
-                <input type="password" id="regPassword" required="" />
-              </div>
-              <div className="col-lg-12 text-center">
-                <button className="lezada-button lezada-button--medium">
-                  register
-                </button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
     </div>
   </div>
 </div>
